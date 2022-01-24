@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 })
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:4200', 'https://kuroko-client.vercel.app/'],
+    origin: ['http://localhost:3000', 'http://localhost:4200', 'https://kuroko-client.vercel.app'],
     credentials: true
 }))
 
